@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/thinkcraft',
+  assetPrefix: '/thinkcraft/',
   eslint: {
     ignoreDuringBuilds: true,
   },
